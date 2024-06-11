@@ -4,17 +4,17 @@ This project demonstrates how to build and visualize a Decision Tree Classifier 
 ## Overview
 This repository contains a Python script that performs the following steps:
 
-#### Import Libraries: 
+### Import Libraries: 
 Utilizes **pandas** for data manipulation, **scikit-learn** for machine learning, and additional libraries for visualization.
-#### Load Dataset: 
+### Load Dataset: 
 Reads a CSV file containing cleaned crime data into a DataFrame.
-#### Data Preprocessing:
+### Data Preprocessing:
 Converts the 'District' column to string type.
 Identifies and **one-hot encodes** categorical variables.
 Integrates the encoded data back into the main DataFrame.
-#### Model Training: 
+### Model Training: 
 Creates and trains a **Decision Tree Classifier** on the training data.
-#### Model Evaluation: 
+### Model Evaluation: 
 Uses the trained model to predict on the test set and calculates the accuracy of the predictions.
-#### Visualization: 
+### Visualization: 
 Visualizes the decision tree structure using Graphviz and displays it within the notebook.
