@@ -1,11 +1,13 @@
 # Crime Data Classification with Decision Tree
 This project demonstrates how to build and visualize a Decision Tree Classifier using the Scikit-Learn library to predict arrests based on crime data.
 
-# Overview
+## Overview
 This repository contains a Python script that performs the following steps:
 
-## Import Libraries: Utilizes pandas for data manipulation, scikit-learn for machine learning, and additional libraries for visualization.
-Load Dataset: Reads a CSV file containing cleaned crime data into a DataFrame.
+### Import Libraries: 
+Utilizes pandas for data manipulation, scikit-learn for machine learning, and additional libraries for visualization.
+### Load Dataset: 
+Reads a CSV file containing cleaned crime data into a DataFrame.
 Data Preprocessing:
 Converts the 'District' column to string type.
 Identifies and one-hot encodes categorical variables.
