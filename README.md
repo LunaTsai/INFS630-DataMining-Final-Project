@@ -1,20 +1,18 @@
-# Crime Data Classification using Decision Tree
-This is the final project for the course, INFS630 Data Mining. I leveraged Decision Tree model to predict crime occurance in chicago area, which can help the police officers to improve crime prevention strategies.
+# Crime occurrences prediction using Decision Tree
+This is a group project for the INFS630 Data Mining course. My contribution involved leveraging a **Decision Tree model** to predict crime occurrences in the Chicago area, aiding police officers in enhancing their crime prevention strategies.
 
-## What I have learned:
-This repository contains a Python script that performs the following steps:
+# What I have learned
+1. Data Processing:
+Be able to utilize **pandas** for data manipulation, including reading a CSV file into a DataFrame, and handling categorical data through **OneHotEncoder** for encoding categorical variables.
 
-### Import Libraries: 
-Utilizes **pandas** for data manipulation, **scikit-learn** for machine learning, and additional libraries for visualization.
-### Load Dataset: 
-Reads a CSV file containing cleaned crime data into a DataFrame.
-### Data Preprocessing:
-Converts the 'District' column to string type.
-Identifies and **one-hot encodes** categorical variables.
-Integrates the encoded data back into the main DataFrame.
-### Model Training: 
-Creates and trains a **Decision Tree Classifier** on the training data.
-### Model Evaluation: 
-Uses the trained model to predict on the test set and calculates the accuracy of the predictions.
-### Visualization: 
-Visualizes the decision tree structure using Graphviz and displays it within the notebook.
+2. Data Preprocessing:
+Be able to convert numerical values to string type, one-hot encode categorical variables, and integrate them into the DataFrame.
+
+3. Model Training:
+Be able to create and train a **Decision Tree Classifier** using **sklearn**, including **splitting the dataset** into training and test sets, and **tuning model parameters** like max_depth, min_samples_split, and min_samples_leaf.
+
+4. Model Evaluation:
+Be able to evaluate the model's performance using accuracy_score to determine the classifier's accuracy on the test set.
+
+5. Visualization:
+Be able to **visualize the decision tree structure** using **export_graphviz** and **pydotplus** to identify the important features and understand the model's decision-making process.
