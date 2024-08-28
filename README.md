@@ -1,7 +1,7 @@
-# Crime Data Classification with Decision Tree
-This project demonstrates how to build and visualize a Decision Tree Classifier using the Scikit-Learn library to predict arrests based on crime data.
+# Crime Data Classification using Decision Tree
+This is the final project for the course, INFS630 Data Mining. I leveraged Decision Tree model to predict crime occurance in chicago area, which can help the police officers to improve crime prevention strategies.
 
-## Overview
+## What I have learned:
 This repository contains a Python script that performs the following steps:
 
 ### Import Libraries: 
